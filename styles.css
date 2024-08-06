@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    flex: 1;
+}
+
+header {
+    background: #333;
+    color: #fff;/*couleur du header*/
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.profile-pic {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.intro {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.bio h2 {
+    margin-top: 0;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;/*couleur du header*/
+    text-align: center;
+    padding: 1rem 0;
+}
